@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="pressbu()" style="border: 8px solid black; color:yellow; background-color:red; height:100px; width:100px; border-radius:50%">
+        Click Me
+    </button>
+    <script>
+        // json parse
+        let obj=JSON.parse('{"var1":"LJ","var2":"University"}')
+        console.log(obj);
+        console.log(obj.var1+""+obj.var2)
+
+        // json stringify
+        let obj2=JSON.stringify({var1:"LJ",var2:"University"})
+        console.log(obj2)
+        console.log(obj2.var1) //undefined
+
+        //updating values of existing object keys
+        let person={name:"Samir",age:22,city:"Ahmedabad"}
+        //Using Dot notation
+        person.age=30;
+        //bracket notation
+        person["city"]="Surat";
+        //using variable key
+        let key="name"
+        person[key]="HELLIFY"
+        console.log(person)
+
+        //print date in ist
+        const obje={"name":"XYZ","age":67,"dob":"1997-03-14"}
+        console.log(obje.dob)
+        a=new Date(obje.dob)
+        console.log(a)
+
+        //button event function
+        function pressbu(){
+            const obje={"name":"XYZ","age":67,"dob":"1997-03-14"}
+            console.log(obje.dob)
+            a=new Date(obje.dob)
+            document.write(a)
+        }
+    </script>
+</body>
+</html>

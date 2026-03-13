@@ -1,0 +1,21 @@
+let obj={
+    book:[{"id":1,
+        "title":"t1",
+        "edition":"e1",
+        "author":"dev"
+    },
+    {
+        "id":2,
+        "title":"t2",
+        "edition":"e2",
+        "author":"aryan"
+    },
+    {
+        "id":3,
+        "title":"t3",
+        "edition":"e3",
+        "author":"jemish"
+    }
+]
+}
+console.log(obj.book[1])

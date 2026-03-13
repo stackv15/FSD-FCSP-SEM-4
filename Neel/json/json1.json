@@ -1,0 +1,8 @@
+{
+    "name":"Neel",
+    "age":19,
+    "city":"Bharuch",
+    "Address":{"state":"Gujrat",
+            "country":"India"},
+    "skill":["html","css","js"]
+}

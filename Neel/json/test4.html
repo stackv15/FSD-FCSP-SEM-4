@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function test(){
+            const obj='{"name":"xyz","age":"20","dob":"2006-02-10"}'
+            obj1=JSON.parse(obj)
+            document.getElementById("demo").innerHTML=obj1.dob
+        }
+    </script>
+</head>
+<body>
+    <p id="demo"></p>
+    <button onclick="test()">CLICK ME</button>
+</body>
+</html>
