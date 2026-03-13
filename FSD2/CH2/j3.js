@@ -1,6 +1,0 @@
-var ps=require("fs")
-ps.writeFileSync("s2.txt","Ladle Meow Chin Tapak DUM DUM")
-data=ps.readFileSync("s2.txt","UTF-8")
-ps.writeFileSync("destination.txt",data)
-data1=ps.readFileSync("destination.txt","UTF-8")
-console.log(data1)
